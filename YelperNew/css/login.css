@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    
+    font-family:sans-serif;
+    color: #333333;
+    line-height: 1.6;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;}
+
+  .showcase{
+      background-color: white;
+      height: 553px;
+  }
+  .login-container{
+      position: relative;
+      margin-top: 50px;
+      overflow: hidden;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login{
+    position: relative;
+    width: 380px;
+}
+.logintext{
+    text-align: center;
+    font-size: 32px;
+}
+.search-txt{
+
+        width: 380px;
+        height:35px;
+        
+    }
+    .loginbutton{
+        background-color: #E22222;
+	color:#ffffff;
+	font-size: 19px;
+	border-style: none;
+	padding: 5px 10px;
+	 overflow: hidden;
+	justify-content: space-between;
+	border:none;
+	width: 380px;
+	height: 36px;
+	border-radius:5px
+    }
+    .forgot-pass {
+        position: absolute;	
+        font-size: 11px;
+        right: 0px;	
+        color: 	#1B69B1;}
+
+        .continue {
+            text-align: center;
+            color:}
+
+            .gmail{
+                
+                background-color:white;
+                border-style: none;
+                width:70px;  	
+                 height: 61px;
+                 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+                 border-radius:10px;
+                 margin: 10px;}
+                 .buttons{
+                     position: relative;
+                     left: 100px ;
+                 }
